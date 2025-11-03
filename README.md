@@ -1,113 +1,53 @@
-🤖 BotForge – Drag-and-Drop Bot Builder (Telegram / Instagram)
+# 🤖 BotForge – Drag-and-Drop Bot Builder (Telegram / WhatsApp)
 
-This project provides a React + Vite setup for building a no-code, drag-and-drop tool that lets users create, design, and deploy chatbots for Telegram, Instagram, and WhatsApp — all through an intuitive visual interface.
+**BotForge** is a **no-code, drag-and-drop platform** that lets users visually create, design, and deploy automated chatbots for **Telegram**, **Instagram**, and **WhatsApp**. Built with **React + Vite**, it provides an intuitive visual interface where users can create intelligent conversational flows, connect APIs, and deploy bots instantly—**without writing a single line of code**.
 
-BotForge enables users to create automated conversational flows without coding knowledge, making bot creation faster, smarter, and more accessible.
+---
 
-🧩 Features
+## 🧩 Features
 
-⚙️ Drag-and-Drop Flow Builder – Visually design bot logic and conversation flows.
+- ⚙️ **Drag-and-Drop Flow Builder** – Visually design bot logic and complex conversation flows using interconnected nodes.
+- 💬 **Multi-Platform Integration** – Build once and deploy seamlessly across Telegram, Instagram, or WhatsApp.
+- 🧠 **No-Code Automation** – Create intelligent, conditional bots with triggers, actions, and custom logic.
+- 🔗 **Custom API / Webhook Integration** – Easily connect external services, databases, or automation tools directly within your flow.
+- 🔍 **Real-Time Preview** – Test and debug your bot's behavior instantly in the editor before deploying.
+- ☁️ **Instant Deployment** – Publish your fully designed bot to your chosen platform in one click.
 
-💬 Multi-Platform Integration – Deploy bots on Telegram, Instagram, or WhatsApp.
+---
 
-🧠 No-Code Automation – Create intelligent bots without writing a single line of code.
+## 🛠️ Tech Stack
 
-🔗 Custom API / Webhook Integration – Connect external APIs and services easily.
+| Layer | Technologies |
+|:---|:---|
+| **Frontend** | React, Vite, Tailwind CSS, React Flow |
+| **Backend** | Node.js, Express |
+| **Database** | MongoDB / Firebase |
+| **Bot APIs** | Telegram Bot API, Meta Graph API (Instagram), Twilio (WhatsApp) |
+| **Auth** | Firebase Auth / JWT |
+| **Hosting** | Vercel / Render / Netlify |
 
-🔍 Real-Time Preview – Test your bot directly in the editor before deploying.
+---
 
-☁️ Instant Deployment – Deploy bots to your chosen platform in one click.
+## 🚀 Getting Started & Project Structure
 
-🛠️ Tech Stack
-
-Frontend: React + Vite + Tailwind CSS + React Flow
-
-Backend: Node.js / Express
-
-Database: MongoDB / Firebase
-
-Bot APIs: Telegram Bot API, Meta Graph API (Instagram), Twilio (WhatsApp)
-
-Auth: Firebase Auth / JWT
-
-Hosting: Vercel / Render / Netlify
-
-🚀 Getting Started
-1️⃣ Clone the repository
-git clone https://github.com/Ajay51119/BotForge.git
+###  Steps to Run Locally
+Follow these steps to set up and run the BotForge development server:
+```bash
+# Clone the repository
+git clone [https://github.com/Ajay51119/BotForge.git](https://github.com/Ajay51119/BotForge.git)
 cd BotForge
 
-2️⃣ Install dependencies
+# Install dependencies for both frontend and backend
 npm install
 
-3️⃣ Run the development server
+# Run the development server
 npm run dev
 
 
-Then open your browser and visit:
-👉 http://localhost:5173
+```
+## Contributing
+Contributions are welcome! Please fork the repository, make your changes, and open a pull request.
 
-🔧 Integrations Setup
-🟢 Telegram
+## License
 
-Create a bot using BotFather
-
-Copy your Bot Token
-
-Add it to the Integration Settings panel in BotForge
-
-🟣 Instagram
-
-Create an app via Meta for Developers
-
-Obtain Access Token and App ID
-
-Connect your Instagram Business Account
-
-🟡 WhatsApp
-
-Use Twilio or Meta Cloud API
-
-Paste credentials in your integration section
-
-🧠 Project Structure
-BotForge/
-│
-├── frontend/              # React + Vite app (drag-and-drop builder)
-│   ├── components/
-│   ├── pages/
-│   ├── utils/
-│   └── App.jsx
-│
-├── backend/               # Express server for APIs & bot logic
-│   ├── routes/
-│   ├── controllers/
-│   ├── models/
-│   └── index.js
-│
-└── README.md
-
-🧪 Available Scripts
-Command	Description
-npm run dev	Start development server
-npm run build	Build the production app
-npm run preview	Preview the production build locally
-npm run lint	Run ESLint for code quality
-🧰 Expanding the ESLint Configuration
-
-If you’re developing a production application, we recommend integrating TypeScript with type-aware lint rules.
-You can check out the React + TypeScript template
- for details on adding TypeScript and typescript-eslint
- to your project.
-
-🌐 Demo
-
-🎥 Live Demo: Coming Soon
-📦 GitHub Repo: Ajay51119/BotForge
-
-👨‍💻 Author
-
-Ajay Kumar
-📧 ajayk390635@gmail.com
-
-🌐 GitHub – Ajay51119
+Feel free to add or modify sections based on your project details. Let me know if you'd like to add more specific information, such as a description of the algorithms used, or if you have images, logos, or other media to include in the README.
